@@ -29,11 +29,9 @@ This project leverages a ROSPlan-based system to implement robotic planning in a
 2. **Install Required Packages:**
    - Clone and set up dependencies:
      ```bash
-     git clone https://github.com/CarmineD8/aruco_ros.git
      git clone https://github.com/CarmineD8/SLAM_packages.git
      git clone https://github.com/KCL-Planning/ROSPlan.git
      ```
-   - Replace the `marker_publish.cpp` file in the `aruco_ros` package with the customized version from this repository.
 
 3. **Launch the Simulation Environment:**
    - Run the main launch file to initialize the Gazebo simulation, SLAM, and MoveBase:
